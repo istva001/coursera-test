@@ -16,6 +16,22 @@
       font-family: Helvetica;
       color: white;
     }
+
+    #p1 {
+      background-color: #A52A2A;
+      position: relative;
+      top: 65px;
+      left: 65px;
+    }
+    #p2 {
+      background-color: #DEB887;
+    }
+    #p3 {
+      background-color: #5F9EA0;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
     
     /* Simple Responsive Framework. */
     .row {
