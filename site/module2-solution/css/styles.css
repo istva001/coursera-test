@@ -2,15 +2,17 @@
 
 * {
   box-sizing: border-box;
+  font-family: Arial Rounded MT Bold, Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  font-family: Arial Rounded MT Bold, Arial, Helvetica, sans-serif;
+  font-family: Playbill, Arial Rounded MT Bold, Arial, Helvetica, sans-serif;
   margin: 0;
   text-align: center;
   padding: 4%;
+  font-size: 175%
 }
 
 .row {
@@ -31,6 +33,7 @@ h1 {
   height: 35px;
   float: right;
   text-align: center;
+  font-size: 125%
 }
 
 div > div:first-child h2{
@@ -51,6 +54,7 @@ div > div p {
   margin: 2%;
   text-align: left;
   clear: both;
+  font-size: 100%
 }
 
   /********** Tablet view **********/
@@ -64,6 +68,10 @@ div > div p {
     margin-top: 2%;
     margin-bottom: 3%;
     width:96%;
+  }
+
+  .row:last-child h2{
+    width: 15%;
   }
 }
 
