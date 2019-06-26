@@ -1,0 +1,267 @@
+/*===== START reset =====*/
+
+
+
+
+
+ol, ul {
+
+    list-style: none outside none;
+
+}
+
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+
+    background: none repeat scroll 0 0 transparent;
+
+    border: 0 none;
+
+    margin: 0;
+
+    outline: 0 none;
+
+    padding: 0;
+
+    vertical-align: baseline;
+
+}
+
+
+
+
+
+/*===== END reset =====*/
+
+
+
+
+
+/*===== START fonts =====*/
+
+
+
+
+
+@font-face{
+
+	font-family:Adam;
+
+	src:url('../fonts/Adam.otf');
+
+}
+
+
+
+@font-face{
+
+	font-family:Dolce Vita;
+
+	src:url('../fonts/Dolce Vita.ttf')
+
+}
+
+
+
+@font-face{
+
+	font-family:basictitle;
+
+	src:url('../fonts/basictitlefont.ttf')
+
+}
+
+
+
+
+
+/*===== END fonts =====*/
+
+
+
+
+
+/*===== START all =====*/
+
+
+
+*{
+
+    box-sizing: border-box;
+
+}
+
+
+
+/*===== END all =====*/
+
+
+
+/*===== START base =====*/
+
+
+
+h1{
+
+    font-family:Dolce Vita;
+
+    text-align: center;
+
+    padding: 4%;
+
+}
+
+
+
+.box{
+
+    width:31.33%;
+
+    float:left;
+
+    font-family:Adam;
+
+    border: 1px solid black;
+
+    height:400;
+
+    margin-left:1.5%;
+
+    overflow: hidden;
+
+}
+
+
+
+.box h2{
+
+    font-family:basictitle;
+
+    font-size:100%;
+
+    padding:5%;
+
+    border-bottom:1px solid black;
+
+    border-left:1px solid black;
+
+    color:white;
+
+    width:70%;
+
+    float:right;
+
+    text-align: center;
+
+}
+
+
+
+div > div:first-child h2{
+
+    background-color:red;
+
+}
+
+
+
+ div > div:nth-child(2) h2{
+
+    background-color:pink;
+
+}
+
+
+
+ div > div:last-child h2{
+
+    background-color:orange;
+
+}
+
+
+
+div > div p{
+
+    padding:12% 8% 12% 8%;
+
+    margin:2%;
+
+    text-align: justify;
+
+    clear:both;
+
+}
+
+
+
+
+
+/*===== END base =====*/
+
+
+
+
+
+/*===== START media =====*/
+
+
+
+
+
+@media (min-width:768px) and (max-width:991px){
+
+
+
+    .box{
+
+        width:47%;
+
+        margin-left:2%;
+
+    }
+
+
+
+    .box:last-child{
+
+        margin-top: 2%;
+
+        margin-bottom: 3%;
+
+        width:96%;
+
+    }
+
+}
+
+
+
+@media (max-width:767px){
+
+    .box{
+
+        width:96%;
+
+        margin-left:2%;
+
+        margin-top:2%;
+
+    }
+
+
+
+    .box:last-child{
+
+        margin-bottom: 3%;
+
+    }
+
+}
+
+
+
+
+
+/*===== END media =====*/
